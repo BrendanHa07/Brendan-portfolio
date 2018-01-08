@@ -2,21 +2,27 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 #main_banner {
-   background-color: black;
-   height: 400px;
+   background-image: url('../image/computer2.jpg');
+   height: 500px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   filter: 5px;
 }
 
 .single_banner_text {
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    width: 400px;
+    width: 600px;
     padding-top: 50px;
     margin: 0 auto;
     color: white;
+    margin-top: 85px;
 }
 
 .main_name {
-    font-size: 60px;
+    font-size: 80px;
 }
 
 #portfolio_title {
@@ -32,7 +38,7 @@ body {
 
 #skills_banner {
     margin-bottom: 50px;
-    height: 400px;
+    height: 300px;
 }
 
 .projects_title {
@@ -61,4 +67,9 @@ img {
 
 .fa-github {
     color: black;
+}
+
+.footer{
+    margin-top: 25px;
+    padding-left: 30px;
 }
