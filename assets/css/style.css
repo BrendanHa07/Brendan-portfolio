@@ -23,6 +23,8 @@ body {
 
 .main_name {
     font-size: 80px;
+    text-align: center;
+    width: 100%;
 }
 
 #portfolio_title {
@@ -33,12 +35,12 @@ body {
 #about_banner {
     padding-top: 25px;
     margin-bottom: 50px;
-    height: 400px;
+    height: 100%;
 }
 
 #skills_banner {
     margin-bottom: 50px;
-    height: 300px;
+    height: 100%;
 }
 
 .projects_title {
@@ -48,6 +50,12 @@ body {
 .project_images {
     max-width: 50%;
 }
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 img {
     border:1px solid #021a40;
