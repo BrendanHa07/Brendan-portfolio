@@ -4,6 +4,7 @@ body {
 #main_banner {
    background-image: url('../image/computer2.jpg');
    height: 500px;
+   width: 100%;
    background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
@@ -14,7 +15,7 @@ body {
 .single_banner_text {
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    width: 600px;
+    width: 100%;
     padding-top: 50px;
     margin: 0 auto;
     color: white;
@@ -24,7 +25,6 @@ body {
 .main_name {
     font-size: 80px;
     text-align: center;
-    width: 100%;
 }
 
 #portfolio_title {
